@@ -23,40 +23,40 @@ func timeCountForSortArray(capacity: Int, method: SortMethods, arrayType: ArrayT
     
     switch method {
     case .insertSort:
-        let cuurentDate = Date()
+        let currentDate = Date()
         while counter != iterations {
             sort(by: method, arrayForSort)
             counter += 1
         }
-        return -(cuurentDate.timeIntervalSinceNow/Double(iterations))
+        return -(currentDate.timeIntervalSinceNow/Double(iterations))
     case .quickSort:
-        let cuurentDate = Date()
+        let currentDate = Date()
         while counter != iterations {
             sort(by: method, arrayForSort)
             counter += 1
         }
-        return -(cuurentDate.timeIntervalSinceNow/Double(iterations))
+        return -(currentDate.timeIntervalSinceNow/Double(iterations))
     case .selection:
-        let cuurentDate = Date()
+        let currentDate = Date()
         while counter != iterations {
             sort(by: method, arrayForSort)
             counter += 1
         }
-        return -(cuurentDate.timeIntervalSinceNow/Double(iterations))
+        return -(currentDate.timeIntervalSinceNow/Double(iterations))
     case .buble:
-        let cuurentDate = Date()
+        let currentDate = Date()
         while counter != iterations {
             sort(by: method, arrayForSort)
             counter += 1
         }
-        return -(cuurentDate.timeIntervalSinceNow/Double(iterations))
+        return -(currentDate.timeIntervalSinceNow/Double(iterations))
     case .merge:
-        let cuurentDate = Date()
+        let currentDate = Date()
         while counter != iterations {
             sort(by: method, arrayForSort)
             counter += 1
         }
-        return -(cuurentDate.timeIntervalSinceNow/Double(iterations))
+        return -(currentDate.timeIntervalSinceNow/Double(iterations))
         
     }
    
